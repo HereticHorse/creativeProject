@@ -1,26 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+//import Greet from "./component/appPage";
+//import Headers from "./component/Headers";
+import Message from "./component/message";
+import Counter from "./component/Counter";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+	render() {
+		return (
+			<div className="App">
+				{/* <Headers name="Laa" heroName="Batman" /> */}
+				<Message></Message>
+				<Counter></Counter>
+
+				{/* <Greet name="Laa" heroName="Batman">
+					<p>This is childern props</p>
+				</Greet>
+				<Greet name="Lii" heroName="Wonder woman">
+					<button> fly away!</button>
+				</Greet>
+				<Greet name="Luu" heroName="Iron Man" /> */}
+			</div>
+		);
+	}
 }
 
 export default App;
