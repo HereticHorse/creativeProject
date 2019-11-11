@@ -3,10 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@wojtekmaj/react-datetimerange-picker": "^2.3.0",
     "chart.js": "^2.9.2",
     "material-kit-react": "^1.8.0",
     "react": "^16.11.0",
     "react-calendar": "^2.19.2",
+    "react-datetime-range-picker": "^2.0.5",
     "react-dom": "^16.11.0",
     "react-scripts": "3.2.0",
     "recharts": "^1.8.5"

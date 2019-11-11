@@ -23,7 +23,7 @@ import { mainListItems, secondaryListItems } from ".//component/listItems";
 import Chart from "./component/Chart";
 import Deposits from "./component/Deposits";
 import Orders from "./component/Orders";
-import Calendar from "react-calendar";
+import Report from "./component/Report";
 
 function Copyright() {
 	return (
@@ -190,20 +190,25 @@ export default function Dashboard() {
 					<Grid container spacing={3}>
 						{/* Recent Orders */}
 						<Grid item xs={12} md={4} lg={3}>
-							<Paper className={classes.paper}>
-								<Calendar />
-							</Paper>
+							<Paper className={classes.paper}></Paper>
 						</Grid>
-						{/* Chart */}
+
+						{/* Report */}
 						<Grid item xs={12} md={8} lg={9}>
 							<Paper className={fixedHeightPaper}>
-								<Chart />
+								<Report />
 							</Paper>
 						</Grid>
 						{/* Recent Deposits */}
 						<Grid item xs={12} md={4} lg={3}>
 							<Paper className={fixedHeightPaper}>
 								<Deposits />
+							</Paper>
+						</Grid>
+						{/* Chart */}
+						<Grid item xs={12} md={8} lg={9}>
+							<Paper className={fixedHeightPaper}>
+								<Chart />
 							</Paper>
 						</Grid>
 						{/* Recent Orders */}

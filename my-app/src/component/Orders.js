@@ -66,15 +66,15 @@ export default function Orders() {
 	const classes = useStyles();
 	return (
 		<React.Fragment>
-			<Title>Recent Orders</Title>
+			<Title>Nykyiset tapahtumat</Title>
 			<Table size="small">
 				<TableHead>
 					<TableRow>
-						<TableCell>Date</TableCell>
-						<TableCell>Name</TableCell>
-						<TableCell>Ship To</TableCell>
-						<TableCell>Payment Method</TableCell>
-						<TableCell align="right">Sale Amount</TableCell>
+						<TableCell>Päivä</TableCell>
+						<TableCell>Nimi</TableCell>
+						<TableCell>Lähtevä</TableCell>
+						<TableCell>Maksu tapa</TableCell>
+						<TableCell align="right">Loppu Summa</TableCell>
 					</TableRow>
 				</TableHead>
 				<TableBody>
@@ -91,7 +91,7 @@ export default function Orders() {
 			</Table>
 			<div className={classes.seeMore}>
 				<Link color="primary" href="javascript:;">
-					See more orders
+					Tarkastele lisää
 				</Link>
 			</div>
 		</React.Fragment>
