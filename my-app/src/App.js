@@ -24,6 +24,7 @@ import Chart from "./component/Chart";
 import Deposits from "./component/Deposits";
 import Orders from "./component/Orders";
 import Report from "./component/Report";
+import { Fab } from "@material-ui/core";
 
 function Copyright() {
 	return (
@@ -190,8 +191,14 @@ export default function Dashboard() {
 					<Grid container spacing={3}>
 						{/* Recent Orders */}
 						<Grid item xs={12} md={4} lg={3}>
-							<Paper className={classes.paper}></Paper>
+							<Paper className={classes.paper}>
+								<Fab color="primary" aria-label="add" className={classes.fab}>
+
+								</Fab>
+
+							</Paper>
 						</Grid>
+
 
 						{/* Report */}
 						<Grid item xs={12} md={8} lg={9}>
