@@ -9,6 +9,7 @@
     "material-kit-react": "^1.8.0",
     "react": "^16.11.0",
     "react-calendar": "^2.19.2",
+    "react-clock": "^2.4.0",
     "react-datetime-range-picker": "^2.0.5",
     "react-dom": "^16.11.0",
     "react-scripts": "3.2.0",

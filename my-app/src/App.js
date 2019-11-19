@@ -24,6 +24,7 @@ import Chart from "./component/Chart";
 import Deposits from "./component/Deposits";
 import Orders from "./component/Orders";
 import Report from "./component/Report";
+import Test from "./component/Test"
 import { Fab } from "@material-ui/core";
 
 function Copyright() {
@@ -189,7 +190,11 @@ export default function Dashboard() {
 				<div className={classes.appBarSpacer} />
 				<Container maxWidth="lg" className={classes.container}>
 					<Grid container spacing={3}>
-
+						<Grid item xs={12} md={8} lg={9}>
+							<Paper className={fixedHeightPaper}>
+								<Test />
+							</Paper>
+						</Grid>
 
 						{/* Report */}
 						<Grid item xs={12} md={8} lg={9}>
