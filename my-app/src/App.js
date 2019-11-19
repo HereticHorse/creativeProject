@@ -189,15 +189,6 @@ export default function Dashboard() {
 				<div className={classes.appBarSpacer} />
 				<Container maxWidth="lg" className={classes.container}>
 					<Grid container spacing={3}>
-						{/* Recent Orders */}
-						<Grid item xs={12} md={4} lg={3}>
-							<Paper className={classes.paper}>
-								<Fab color="primary" aria-label="add" className={classes.fab}>
-
-								</Fab>
-
-							</Paper>
-						</Grid>
 
 
 						{/* Report */}
